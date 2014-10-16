@@ -3,4 +3,58 @@
 
 .chart {
   height: 500px;
+  position: relative;
+}
+
+.team-node {
+	cursor: pointer;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.point {
+  stroke: #000;
+}
+
+
+
+.tt {
+	background-color: #FFF;
+	color: #333;
+	font-size: 13px;
+	padding: 4px;
+	border: 1px solid #333;
+	position: absolute;
+	display: none;
+}
+
+.the-nav {
+	width: 100%;
+	position: relative;
+}
+
+.change-year {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 140px;
+	z-index: 2;
+}
+
+.btn {
+	width: 50%;
+}
+
+.year-text {
+	font-weight: bold;
+	font-size: 36px;
+	position: absolute;
+	right: 0;
+	top: 40px;
+	width: 140px;
+	text-align: center;
 }
